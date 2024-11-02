@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cave</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>The Cave</h2>
+        <p>Solve this riddle to continue:</p>
+        <p class="question">What lies hidden in the depths of the cave, waiting to be uncovered by those brave enough to seek it?</p>
+        
+        <div class="options">
+            <button onclick="checkAnswer('The Crystal Chamber', 'cave')" class="option">The Crystal Chamber</button>
+            <button onclick="checkAnswer('The Lost Relic', 'cave')" class="option">The Lost Relic</button>
+            <button onclick="checkAnswer('The Shadowed Vault', 'cave')" class="option">The Shadowed Vault</button>
+        </div>
+
+        <div id="effect" class="effect"></div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

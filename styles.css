@@ -1,0 +1,49 @@
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.location-btn, .option {
+    background-color: #ffa500;
+    color: #1a1a1a;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    width: 200px; /* Set a fixed width for all buttons */
+    text-align: center; /* Center text inside the button */
+    transition: background-color 0.3s, transform 0.3s; /* Add transitions for background color and transform */
+}
+
+.option:hover {
+    background-color: #ff8c00; /* Darker orange on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+.options {
+    display: flex;
+    flex-direction: column; /* Align buttons in a column */
+    align-items: center; /* Center buttons horizontally */
+    justify-content: center; /* Center buttons vertically */
+}
+
+.effect {
+    display: none;
+    margin-top: 20px;
+    font-size: 20px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desert</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>The Desert</h2>
+        <p>Solve this riddle to continue:</p>
+        <p class="question">What elusive treasure is said to be buried beneath the sands, lost to time and forgotten by all?</p>
+        
+        <div class="options">
+            <button onclick="checkAnswer('The Golden Oasis', 'desert')" class="option">The Golden Oasis</button>
+            <button onclick="checkAnswer('The Forgotten Tomb', 'desert')" class="option">The Forgotten Tomb</button>
+            <button onclick="checkAnswer('The Sandstone Secret', 'desert')" class="option">The Sandstone Secret</button>
+        </div>
+
+        <div id="effect" class="effect"></div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

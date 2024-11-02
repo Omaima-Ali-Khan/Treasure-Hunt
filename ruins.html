@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancient Ruins</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>The Ancient Ruins</h2>
+        <p>Solve this riddle to continue:</p>
+        <p class="question">What mysterious place in the world is home to countless snakes, often hidden among the rocks and foliage?</p>
+        
+        <div class="options">
+            <button onclick="checkAnswer('The Valley of Snakes', 'ruins')" class="option"> The Valley of Snakes</button>
+            <button onclick="checkAnswer('The Forest of Whispers', 'ruins')" class="option"> The Forest of Whispers</button>
+            <button onclick="checkAnswer('The Tangle of Lost Souls', 'ruins')" class="option">The Tangle of Lost Souls</button>
+        </div>
+
+        <div id="effect" class="effect"></div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
